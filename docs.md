@@ -21,3 +21,25 @@
 ###  Agora vamos criar o arq tsc
 
 ## npx tsc --init
+
+## codamos algumas coisinhas:
+
+### criei um arquivo chamado  serveronde configuramos basicamente o servidor
+
+### Logo podemos configurar infomações como portas, mensagens para serem exibidas
+
+### usar as funcionalidades do Express por exemplo
+
+### instalando prisma
+
+## npm i prisma @prisma/client
+
+### iniciando o tal do Prisma
+
+## npx prisma init
+
+## configurou prisma para usar o SQLITE
+
+## npx prisma migrate dev
+
+### criei a tabela users

@@ -1,9 +1,8 @@
 import { Router } from "express";
+import { UserController } from "./controller/userController";
+
+const userControll = new UserController()
 
 export const router = Router()
 
-router.get('/', async (req, res)=> {
-  return res.json({
-    hello: "Play a so music, this is reggea music! "
-  })
-})
+router.post('/', userControll.store)
